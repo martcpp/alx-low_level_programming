@@ -15,7 +15,7 @@ int main(void)
 		last = n % 10;
 		if (last > 5)
 		{
-			printf("%d is postive\n", n);
+			printf("%d is positive\n", n);
 		}
 		else if (last < 6 && last != 0)
 		{
