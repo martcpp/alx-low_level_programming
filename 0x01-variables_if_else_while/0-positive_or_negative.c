@@ -19,7 +19,7 @@ int main(void)
 		}
 		else if (last < 6 && last != 0)
 		{
-			printf("%d is negative\n", nt);
+			printf("%d is negative\n", n);
 		}
 		else
 		{
