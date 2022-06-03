@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int i = 10;
+	int i;
 
-	for (i < 10; i++)
+	for (i = 0;i < 10; i++)
 	{
 		printf("%d", i);
 	}
