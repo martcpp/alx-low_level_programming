@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-ibt main()
+int main()
 {
 	long int i = 0, j = 1, k = 2, next = 0;
 
@@ -22,5 +22,4 @@ ibt main()
 		j = k;
 		k = next;
 	}
-	return (0)
-}
+	return (0);}
