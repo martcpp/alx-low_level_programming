@@ -2,7 +2,7 @@
 /**
  * _islower - checks for lowercase
  * description - return intetger
- * @c - intger
+ * c - intger
  * Return: 1 if lowercase
  */
 int _islower(int c)
