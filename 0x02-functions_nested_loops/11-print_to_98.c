@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
-/*
+/**
  * print_to_98 - prints numbers to 98
+ * @n: starting integer
  *
  * Return: void
  */
@@ -20,8 +21,5 @@ void print_to_98(int n)
 		printf("%d, ", n);
 		n--;
 	}
-	else
-	{
-		printf("98\n");
-	}
+	printf("98\n");
 }
