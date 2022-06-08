@@ -1,12 +1,13 @@
 #include "main.h"
 /**
  * print_times_table - prints the times table
- *
+ *@n: int data type
  * Return: void
  */
 void print_times_table(int n)
 {
 	int row, column, product;
+
 	if (n >= 0 && n < 15)
 	{
 		for (row = 0; row <= n; row++)
