@@ -2,7 +2,7 @@
 /**
  * add - adds two integers
  * @num1: knt data tyoe
- * @numw: int data type
+ * @num2: int data type
  * Description: give two integers, returns sum
  * Return: result
  */
