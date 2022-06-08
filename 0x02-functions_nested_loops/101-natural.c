@@ -5,9 +5,13 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{8
-	unsigned long int sum3 = 0, sum5 = 0, sum = 0;
-	int i = 0;
+{
+	unsigned long int sum3, sum5, sum;
+	int i;
+
+	sum3 = 0;
+	sum5 = 0;
+	sum = 0;
 
 	for (i = 0; i < 1024; ++i)
 	{
@@ -15,7 +19,7 @@ int main(void)
 		{
 			sum3 = sum3 + i;
 		}
-		else ((i % 5) == 0)
+		else if ((i % 5) == 0)
 		{
 			sum5 = sum5 + i;
 		}
