@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	long int i = 0, j = 1, k = 2, next = 0;
 
@@ -14,7 +14,7 @@ int main()
 		{
 			printf("%ld, ", j);
 		}
-		else 
+		else
 		{
 			printf("%ld\n", j);
 		}
@@ -22,4 +22,5 @@ int main()
 		j = k;
 		k = next;
 	}
-	return (0);}
+	return (0);
+}

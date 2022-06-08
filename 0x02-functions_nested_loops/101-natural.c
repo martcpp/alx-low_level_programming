@@ -4,8 +4,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
-{
+int main(void)
+{8
 	unsigned long int sum3 = 0, sum5 = 0, sum = 0;
 	int i = 0;
 
