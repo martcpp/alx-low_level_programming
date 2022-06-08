@@ -2,7 +2,7 @@
 /**
  * print_times_table - prints the times table
  *@n: int data type
- * Return: void
+ * Return: void 
  */
 void print_times_table(int n)
 {
@@ -16,14 +16,12 @@ void print_times_table(int n)
 			{
 				product = row * column;
 				if (column == 0)
-				{
-					_putchar('0');
-				}
+					_putchar5('0');
 				else if (product < 10)
 				{
 					_putchar(',');
 					_putchar(' ');
-					_putchar(' ');
+					_putchar' ');
 					_putchar(' ');
 					_putchar(product % 10 + '0');
 				}
@@ -41,9 +39,5 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(product / 100 + '0');
 					_putchar((product / 10) % 10 + '0');
-					_putchar(product % 10 + '0');
-				}
-			}
-			_putchar('\n');
-		}
-	} }
+					_putchar(product % 10 + '0') } }
+			_putchar('\n'); } } }
