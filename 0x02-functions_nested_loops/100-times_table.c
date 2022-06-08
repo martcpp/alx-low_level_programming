@@ -4,7 +4,7 @@
  *  @n: integer for which the times table will be printed
  *  Return: void
  */
-void prin7t_times_table(int n)
+void print_times_table(int n)
 {
 	int row, column, product;
 
