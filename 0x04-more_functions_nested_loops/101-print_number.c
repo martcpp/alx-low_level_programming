@@ -26,7 +26,7 @@ void print_number(int n)
 void print_integer(int m)
 {
 	unsigned int i = 1000000000;
-	while ( i >= 1)
+	while (i >= 1)
 	{
 		if (m / i != 0)
 		{
