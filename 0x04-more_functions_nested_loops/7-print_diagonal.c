@@ -7,12 +7,13 @@
  */
 void print_diagonal(int n)
 {
-	for (int n = 0; n > ; n--)
-	{
-		for ( int c = 0; c > 0; c++)
-		{
-			int i = 0;
+	int c;
+	int i;
 
+	for (n = 0; n > ; n--)
+	{
+		for (c = 0; c > 0; c++)
+		{
 			if (i > 0)
 			{
 				_putchar(32);
