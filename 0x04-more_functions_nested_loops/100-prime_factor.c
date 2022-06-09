@@ -8,15 +8,21 @@
  */
 int main(void)
 {
-	int c;
-	long num = 612852475143;
-
-	for (c = (int) sqrt(num); c > 2; c++)
+	long int max, lower, test;
+	max = 612852475143;
+	lower = 2;
+	test = 2;
+	while (max > test)
 	{
-		if (num % c == 0)
+		if (max % test == 0)
 		{
-			printf("%d\n", c);
+			lower = test;
+			max = max / lower;
+			test = lower + 1;
 		}
+		else
+			test++;
 	}
+	printf("%ld\n", max);
 	return (0);
 }
