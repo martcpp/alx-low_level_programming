@@ -1,9 +1,9 @@
 #include "main.h"
+
 /**
- * more_numbers - print 10 times the numbers from 0 to 14
+ * more_numbers - prints numbers between 0 to 14
  *
- * Description: Can only use _putchar 3 times
- * Return: void
+ *  Return: no return.
  */
 void more_numbers(void)
 {
