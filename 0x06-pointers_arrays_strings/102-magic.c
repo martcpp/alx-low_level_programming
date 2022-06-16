@@ -11,7 +11,7 @@ int manin()
 	/**
 	 * write your line of code here...
 	 * Remember:
-	 *  - you are not allowed to use a<F11><F11><F11><F11><F11>
+	 *  - you are not allowed to use a
 	 *  - you are not allowed to modify p
 	 *  only one statement
 	 *  - you are not allowed to code anything else than this line of code
