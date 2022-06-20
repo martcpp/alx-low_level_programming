@@ -8,7 +8,7 @@
  * @size: second parameter
  */
 void print_diagsums(int *a, int size)
-{4
+{
 	int b;	unsigned int add = 0, add1 = 0;
 
 	for (b = 0; b < size; ++b)

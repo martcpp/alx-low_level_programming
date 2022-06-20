@@ -6,7 +6,7 @@
  * @a:as parameter
  */
 void print_chessboard(char (*a)[8])
-{4
+{
 	int b, c;
 
 	for (b = 0; b < 8; b++)
