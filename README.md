@@ -1,9 +1,14 @@
 <html>
   <head>
+<<<<<<< HEAD
     <style type="text/css">
       .title-word {
 	  animation: color-animation 4s linear infinite;
       }
+=======
+
+   <link rel="stylesheet" type="text/css" href="main.css" />
+>>>>>>> babf16838eccce6e08785cef3d033bab9b13788d
 
 .title-word-1 {
     --color-1: #DF8453;
