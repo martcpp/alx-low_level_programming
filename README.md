@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Alx</title>
+
    <link rel="stylesheet" type="text/css" href="main.css" />
 
   </head>
